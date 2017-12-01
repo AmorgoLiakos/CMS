@@ -1,0 +1,16 @@
+	<!-- END #fh5co-offcanvas -->
+	<header id="fh5co-header">
+		
+		<div class="container-fluid">
+
+			<div class="row">
+				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+				<div class="col-lg-12 col-md-12 text-center">
+					<h1 id="fh5co-logo"><a href="first.php">Content Managment System By Liakos <sup>LP</sup></a></h1>
+				</div>
+
+			</div>
+		
+		</div>
+
+	</header>

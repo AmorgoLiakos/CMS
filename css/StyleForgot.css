@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 75%;
+    margin: 3% auto;
+    box-shadow: 0px 0px 10px 5px #3B403C;
+    background-color: grey;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+input {
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 35%;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 2em;
+    text-align: center;
+    border: 2px solid white;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+::-moz-placeholder {
+    text-align: center;
+}
+
+#eye {
+    height: 100%;
+}
+
+button {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-color: white;
+    color: blue;
+    border: 2px solid black;
+    height: 50px;
+    font-size: 1.8em;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#creation {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#creation a {
+    text-decoration: none;
+    color: black;
+}
+
+#creation a:hover {
+    color: red;
+    font-size: 1.1em;
+}
+
+#resultArea {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+    color: red;
+    margin-top: 3%;
+}
+
+#footer {
+    text-decoration: none;
+}
+
+.welcome {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: darkblue;
+}
+
+.welcomeTwo {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 1.7em;
+}
+
+#forgot {
+    width: 15%;
+    display: block;
+    float: right;
+    margin-right: 18%;
+    margin-top: 1%;
+}
+
+#forgot a:hover {
+    color: red;
+}
+
+.change input {
+    width: 80%;
+}
+
+#loginPage {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#loginPage a {
+    text-decoration: none;
+    color: blue;
+}
+
+#loginPage a:hover {
+    color: red;
+    font-size: 1.1em;
+}
+
+#emailTwo {
+    width: 80%;
+}
+
+@media screen and (max-width:1320px) {
+    input {
+        width: 80%;
+    }
+    #forgot {
+        text-align: center;
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    #eyebtn,
+    #sbtn {
+        width: 30%;
+        font-size: 1em;
+    }
+     ::-webkit-input-placeholder {
+        text-align: center;
+        font-size: 0.6em;
+    }
+     ::-moz-placeholder {
+        text-align: center;
+        font-size: 0.6em;
+    }
+}
